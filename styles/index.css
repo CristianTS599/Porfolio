@@ -48,3 +48,11 @@
   font-weight: 500;
   font-size: larger;
 }
+
+.card-spacing {
+  margin-top: 30px;
+}
+
+footer {
+  padding: 20px;
+}
