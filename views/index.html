@@ -1,7 +1,101 @@
 <!DOCTYPE html>
-<head>
-  <title>Portfolio Home Page</title>
-</head>
-<body>
-  <h1>Hello World!</h1>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../scripts/shared.js"></script>
+    <link rel="stylesheet" href="../styles/index.css" />
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <h1 hidden>Home Page</h1>
+    <div class="container">
+      <div class="row heading-row">
+        <div class="col-3 heading-img">
+          <img
+            class="image-self"
+            src="/images/cts.jpg"
+            alt="Photo of myself, Cristian Torres Salazar"
+            width="300px"
+            height="300px"
+          />
+        </div>
+        <div class="col heading-details">
+          <div class="row lead">
+            <h2>Cristian Torres Salazar</h2>
+            <h5>Tualatin, OR</h5>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <p class="lead">
+          Hello, My name is Cristian! I'm an undergraduate student at Portland
+          State Universtiy studing to recieve a Bachelors in Computer Science
+          with a Minor in Business Administration. My immediate goals are to
+          master full stack development from the low level fundamentals behind
+          web configuration up to the design of the user experiance while
+          building up my theoretical understanding of more complex topics in the
+          software Security and Finance sectors to,long term, fully venture into
+          the security and finance abstractions of software. I was brought up
+          with a passion for the automotive industry and curiosity with the
+          workings of finance. This experiance is the root of my interests
+          outside of software where I set goals to learn from automotive
+          projects and personal investments.
+        </p>
+      </div>
+      <div class="card">
+        <div class="card-header"><h6>Education</h6></div>
+        <div class="card-body">
+          <div class="row section-heading">
+            <div class="col-6">
+              <h5 class="card-title">Portland State University</h5>
+            </div>
+            <div class="col-3 text-right">
+              <p>Portland, OR</p>
+            </div>
+            <div class="col-3 text-right">
+              <p>9/19 - Present</p>
+            </div>
+          </div>
+          <p class="card-text indent-1">
+            Bachelors in Computer Science in progress
+          </p>
+          <p class="card-text indent-2">
+            Business Administration Minor Complete
+          </p>
+          <p class="card-text indent-2">Graduation Date: Aug, 2023</p>
+          <p class="card-text indent-2">GPA: 3.56</p>
+          <div class="row section-heading section-spacing">
+            <div class="col-6">
+              <h5 class="card-title">Mt. Hood Community College</h5>
+            </div>
+            <div class="col-3 text-right">
+              <p>Gresham, OR</p>
+            </div>
+            <div class="col-3 text-right">
+              <p>9/16-9/19</p>
+            </div>
+          </div>
+          <p class="card-text indent-1">Engineering Prerequisites</p>
+          <div class="row section-heading section-spacing">
+            <div class="col-6">
+              <h5 class="card-title">UL Certification</h5>
+            </div>
+          </div>
+          <p class="card-text indent-1">
+            Certified by UL Knowledge Solutions Training in Industrial Control
+            Panels UL508A and Short Circuit Current Ratings
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

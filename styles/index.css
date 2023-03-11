@@ -1,0 +1,45 @@
+.image-self {
+  border-radius: 100%;
+}
+
+.heading-row {
+  width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  text-align: right;
+}
+
+.heading-img {
+  width: 300px;
+}
+
+.heading-details {
+  width: 400px;
+}
+
+.card-body > p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.indent-1 {
+  margin-left: 50px;
+}
+
+.indent-2 {
+  margin-left: 85px;
+}
+
+.text-right {
+  text-align: right;
+  font-weight: 500;
+}
+
+.section-heading {
+  height: 30px;
+}
+
+.section-spacing {
+  margin-top: 20px;
+}
