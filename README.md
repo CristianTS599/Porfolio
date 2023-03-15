@@ -1,2 +1,3 @@
 # Porfolio
-Personal portfolio outlining professional experience and projects worked on.
+
+This Repository was created to outline my personal portfolio and portray a resume like personal website while also practicing working with html, css, javascript, and building a website from scratch to deployement via github pages.
