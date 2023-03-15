@@ -8,13 +8,13 @@ $.ajax({
     // shared navbar ended up not working need to update
     // about link in contact page
     let about = document.getElementById('about');
-    about.href = '/index.html#About';
+    about.href = '../index.html#About';
 
     // need to remove self reference, not needed here
     let contact = document.getElementById('contact').remove();
 
     // need to update portfolio link
     let portfolio = document.getElementById('portfolio');
-    portfolio.href = '/index.html#cards';
+    portfolio.href = '../index.html#cards';
   },
 });
