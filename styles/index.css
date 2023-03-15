@@ -57,3 +57,11 @@
 footer {
   padding: 20px;
 }
+
+/*Starts at 20*/
+@media (min-width: 20px) {
+  .section-heading {
+    margin-bottom: 40px;
+    font-size: small;
+  }
+}
