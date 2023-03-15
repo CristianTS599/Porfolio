@@ -19,5 +19,9 @@ $.ajax({
     // need to update portfolio link
     let portfolio = document.getElementById('portfolio');
     portfolio.href = '../index.html#cards';
+
+    // need to update portfolio link
+    let projects = document.getElementById('projectsa');
+    projects.href = '../index.html#projects';
   },
 });
