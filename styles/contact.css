@@ -11,6 +11,10 @@
   font-size: 50pt;
 }
 
+label {
+  padding-left: 0px;
+}
+
 .contact-inputs {
   width: 500px;
 }
