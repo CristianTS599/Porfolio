@@ -58,8 +58,8 @@ footer {
   padding: 20px;
 }
 
-/*Starts at 20*/
-@media (min-width: 20px) {
+/*ends at 600*/
+@media (max-width: 600px) {
   .section-heading {
     margin-bottom: 40px;
     font-size: small;
