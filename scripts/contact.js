@@ -1,5 +1,5 @@
 $.ajax({
-  url: '/views/shared/navbar.html',
+  url: 'shared/navbar.html',
   method: 'GET',
   success: function (rslt) {
     // inject navbar html
