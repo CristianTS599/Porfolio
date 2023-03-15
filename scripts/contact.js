@@ -10,6 +10,9 @@ $.ajax({
     let about = document.getElementById('about');
     about.href = '../index.html#About';
 
+    let home = document.getElementById('home');
+    home.href = '../index.html';
+
     // need to remove self reference, not needed here
     let contact = document.getElementById('contact').remove();
 
