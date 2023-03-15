@@ -1,0 +1,28 @@
+.contact-header {
+  height: 500px;
+  filter: brightness(0.5);
+  background-image: url('/images/Singapor.jpg');
+  color: #fff;
+  text-align: center;
+}
+
+.cheader-text {
+  padding-top: 250px;
+  font-size: 50pt;
+}
+
+.contact-inputs {
+  width: 500px;
+}
+
+.lead {
+  padding-top: 30px;
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.form-buttons {
+  text-align: center;
+  margin-top: 30px;
+}
